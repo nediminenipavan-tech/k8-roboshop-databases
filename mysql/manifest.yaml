@@ -72,7 +72,7 @@ spec:
       volumes:
         - name: mysql-config
           configMap:
-            name: mysql
+            name: mysql 
   # This is PVC
   volumeClaimTemplates:
   - metadata:
