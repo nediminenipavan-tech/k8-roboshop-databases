@@ -56,7 +56,7 @@ spec:
         volumeMounts:
         - name: mongodb
           mountPath: /data/db
-  # This is PVC
+  # This is PVC 
   volumeClaimTemplates:
   - metadata:
       name: mongodb
